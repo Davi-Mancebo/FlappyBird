@@ -84,7 +84,8 @@ namespace FlappyBird
             pipeTop.Left = 710;
             pipeDown.Left = 710;
             lblFim.Text = " ";
-            lblReiniciar.Text = ""; 
+            lblReiniciar.Text = "";
+            flappyBird.Top = 250;
         
 
         }
