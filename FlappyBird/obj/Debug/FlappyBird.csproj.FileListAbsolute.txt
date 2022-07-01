@@ -1,0 +1,9 @@
+E:\FlappyBird\FlappyBird\bin\Debug\FlappyBird.exe.config
+E:\FlappyBird\FlappyBird\bin\Debug\FlappyBird.exe
+E:\FlappyBird\FlappyBird\bin\Debug\FlappyBird.pdb
+E:\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csprojResolveAssemblyReference.cache
+E:\FlappyBird\FlappyBird\obj\Debug\FlappyBird.Form1.resources
+E:\FlappyBird\FlappyBird\obj\Debug\FlappyBird.Properties.Resources.resources
+E:\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.GenerateResource.Cache
+E:\FlappyBird\FlappyBird\obj\Debug\FlappyBird.exe
+E:\FlappyBird\FlappyBird\obj\Debug\FlappyBird.pdb
