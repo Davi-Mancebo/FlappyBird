@@ -17,7 +17,7 @@ namespace FlappyBird
             InitializeComponent();
         }
         int gravidade = 8;
-        int pipeSpeed = 10;
+        int pipeSpeed = 15;
         int placar = 0;
         int val = 0;
         Random pos = new Random();
@@ -87,6 +87,7 @@ namespace FlappyBird
             pipeSpeed = 5;
             pipeTop.Left = 710;
             pipeDown.Left = 710;
+            
             lblFim.Text = " ";
             lblReiniciar.Text = "";
             flappyBird.Top = 250;
