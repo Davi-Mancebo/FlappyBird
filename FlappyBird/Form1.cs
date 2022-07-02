@@ -20,6 +20,7 @@ namespace FlappyBird
         int pipeSpeed = 10;
         int placar = 0;
         Random pos = new Random();
+        
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -27,35 +28,32 @@ namespace FlappyBird
             pipeTop.Left -= pipeSpeed;
             pipeDown.Left -= pipeSpeed;
 
-            
-                
+            int top = pos.Next(200, 680);
+
+            int pipeDownBase = 490;
+            int cal = 760 - top - 100;
+
             if (pipeTop.Left < -100)
             {
-                pipeTop.Left = 710;
-                
+                pipeTop.Left = 455;
+                pipeTop.Top = 0 - top;
             }
             if (pipeDown.Left < -100)
             {
-                pipeDown.Left = 710;
+                pipeDown.Left = 455;
+                pipeDown.Top = (760 - top) + 100 ;
                 placar++;
             }
             lblPlacar.Text = placar.ToString();
-            if(flappyBird.Bounds.IntersectsWith(pipeTop.Bounds))
-            {
-                fimJogo();
-            }
-            if (flappyBird.Bounds.IntersectsWith(pipeDown.Bounds))
-            {
-                fimJogo();
-            }
-            if (flappyBird.Bounds.IntersectsWith(chao.Bounds))
-            {
-                fimJogo();
-            }
-            if (flappyBird.Bounds.IntersectsWith(ceu.Bounds))
-            {
-                fimJogo();
-            }
+
+            if (flappyBird.Bounds.IntersectsWith(pipeTop.Bounds)) fimJogo();
+
+            if (flappyBird.Bounds.IntersectsWith(pipeDown.Bounds)) fimJogo();
+
+            if (flappyBird.Bounds.IntersectsWith(chao.Bounds)) fimJogo();
+            
+            if (flappyBird.Bounds.IntersectsWith(ceu.Bounds)) fimJogo();
+
         }
 
         private void fimJogo()
@@ -86,8 +84,8 @@ namespace FlappyBird
             lblFim.Text = " ";
             lblReiniciar.Text = "";
             flappyBird.Top = 250;
-        
-
         }
+
+
     }
 }

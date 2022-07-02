@@ -7,3 +7,14 @@ E:\FlappyBird\FlappyBird\obj\Debug\FlappyBird.Properties.Resources.resources
 E:\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.GenerateResource.Cache
 E:\FlappyBird\FlappyBird\obj\Debug\FlappyBird.exe
 E:\FlappyBird\FlappyBird\obj\Debug\FlappyBird.pdb
+C:\Users\Davim\Desktop\programacao\FlappyBird\FlappyBird\bin\Debug\FlappyBird.exe.config
+C:\Users\Davim\Desktop\programacao\FlappyBird\FlappyBird\bin\Debug\FlappyBird.exe
+C:\Users\Davim\Desktop\programacao\FlappyBird\FlappyBird\bin\Debug\FlappyBird.pdb
+C:\Users\Davim\Desktop\programacao\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.AssemblyReference.cache
+C:\Users\Davim\Desktop\programacao\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.SuggestedBindingRedirects.cache
+C:\Users\Davim\Desktop\programacao\FlappyBird\FlappyBird\obj\Debug\FlappyBird.Form1.resources
+C:\Users\Davim\Desktop\programacao\FlappyBird\FlappyBird\obj\Debug\FlappyBird.Properties.Resources.resources
+C:\Users\Davim\Desktop\programacao\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.GenerateResource.cache
+C:\Users\Davim\Desktop\programacao\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.CoreCompileInputs.cache
+C:\Users\Davim\Desktop\programacao\FlappyBird\FlappyBird\obj\Debug\FlappyBird.exe
+C:\Users\Davim\Desktop\programacao\FlappyBird\FlappyBird\obj\Debug\FlappyBird.pdb
