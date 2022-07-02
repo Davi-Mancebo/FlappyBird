@@ -16,9 +16,10 @@ namespace FlappyBird
         {
             InitializeComponent();
         }
-        int gravidade = 5;
+        int gravidade = 8;
         int pipeSpeed = 10;
         int placar = 0;
+        int val = 0;
         Random pos = new Random();
         
 
@@ -41,9 +42,14 @@ namespace FlappyBird
             if (pipeDown.Left < -100)
             {
                 pipeDown.Left = 455;
-                pipeDown.Top = (760 - top) + 100 ;
-                placar++;
+                pipeDown.Top = 760 - top + 100 ;
+                if(val > 0)
+                {
+                    placar++;
+                }
             }
+            val++;
+
             lblPlacar.Text = placar.ToString();
 
             if (flappyBird.Bounds.IntersectsWith(pipeTop.Bounds)) fimJogo();
